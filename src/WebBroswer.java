@@ -15,7 +15,7 @@ public class WebBroswer implements Runnable {
 	private Socket webSocket;
 	private final String webURL = "www.naver.com";// http://www.seoul.go.kr/main/index.html
 	private final String webPath = "/index.html";
-	private final int webPort = 443;//https´Â 443
+	private final int webPort = 443;//httpsëŠ” 443
 	private BufferedWriter writer;
 	private BufferedReader reader;
 
